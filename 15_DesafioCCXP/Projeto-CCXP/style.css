@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #FFD900;
+    display: grid;
+    grid-auto-flow: column;
+    width: 1800px;
+    height: 120px;
+    margin-right: 100px ;
+}
+#inter{
+    margin: 170px 0px 10px 200px;
+    grid-auto-flow: column;
+    font-family: Verdana,bold;
+}
+#inter2{
+    margin: 0px;
+}
+#countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text{
+    color: #514988;
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+    font-family: Verdana,bold;
+}
+#pur{
+    color: #514988;
+    font-family: Verdana;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 85px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.countdown-el {
+    text-align:center;
+} 
+.countdown-el span{
+    font-size: 1.5rem;
+}
+#logo{
+        display: grid;
+        margin-left: 63px;
+        margin-top: 27px;
+        margin-right: 10px;
+        width: 200px;
+}
+#informacoes{
+    grid-auto-flow: column;
+}
+.container1{
+    width: 750px;
+    height: 700px;
+    top: 118px;
+    background-color: #514988;
+    display: grid;
+}
+.titulo{
+    margin-top: 40px;
+    color: #F3C61F;
+    font-family: verdana,bold;
+    font-weight: 700;
+    line-height: 85.07px;
+    text-align: center;
+    font-size: 70px;
+}
+.subtitulo{
+    color: #FFFF;
+    font-family: verdana,bold;
+    font-weight: 700;
+    line-height: 36.46px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.descricao{
+    color: #FFFF;
+    font-family: Verdana;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 70px;
+
+}
+#aviso{
+    color: #e33881;
+    font-family: Verdana;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    margin-left: 60px;
+    padding: 2px;
+}
+.video{
+    margin: 20px 10px 50px 30px;
+    width: 700px;
+    height: 370px;
+    top: 284px;
+    left: 817px;
+}
+#vender{
+    grid-auto-flow: column;
+}
+.venda{
+    color: #F3C61F;
+    font-family: Verdana;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+button:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #514988;
+    color: #FFFF;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 5px;
+}
+.container3{
+    grid-auto-flow: column;
+    margin: 20px 50px 20px 50px;
+}
+
+.botao{
+    width: 500px;
+    height: 140px;
+    margin-top: 100px;
+    margin-left: 700px;
+}
+#ing1{
+    font-family: Verdana;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#F3C61F;
+    margin: 10px 5px 10px 5px
+}
+#ing2{
+   display: flex;
+   align-items: center;
+   margin-bottom: 50px;
+}
+#quinta{
+    width: 204px;
+    height: 204px;
+    top: 875px;
+    left: 81px;
+}
+#sexta{
+    width: 204px;
+    height: 204px;
+    top: 875px;
+    left: 285px;
+}
+#sabado{
+    width: 204px;
+    height: 204px;
+    top: 875px;
+    left: 489px;
+}
+#domingo{
+    width: 204px;
+    height: 204px;
+    top: 875px;
+    left: 693px;
+}
+#compra{
+    background-color: #514988;
+    font-family: Verdana;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#FFFF;
+    margin: 10px 20px 10px 20px;
+    width: 596px;
+    height: 148px;
+    top: 903px;
+    left: 1004px;
+    border-radius: 20px;
+}
+.card-highlight
+{
+    box-shadow: 10px 10px 10px 10px gray;
+}
+.card-selected{
+    border: 5px solid #101010;
+}
+input{
+    background: #F3C61F;
+    color: white;
+    border-radius: 12px;
+    padding: 40px;
+    border: 0pt;
+    margin: 30px 15px 30px 250px;
+    width: 1000px;
+    height: 25px;
+    font-size: 10px;
+    font-weight: 600;
+    font-size: larger;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
